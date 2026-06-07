@@ -1,0 +1,47 @@
+{
+    // ==================================================
+    //  UI・表示・エクスプローラー設定 (見た目・操作)
+    // ==================================================
+    // スクロール時に現在の関数名やクラス名を画面上部に固定表示
+    "editor.stickyScroll.enabled": true,
+    // タブが増えた際にスクロールさせず、複数行に折り返して表示
+    "workbench.editor.wrapTabs": true,
+    // エクスプローラーの階層インデント幅 (30pxで見やすく)
+    "workbench.tree.indent": 30,
+    // 空のフォルダをまとめずに階層構造を維持して表示
+    "explorer.compactFolders": false,
+    // ファイル削除時の確認ダイアログを無効化
+    "explorer.confirmDelete": false,
+    // ドラッグ＆ドロップ移動時の確認ダイアログを無効化
+    "explorer.confirmDragAndDrop": false,
+    // ==================================================
+    //  Python・Jupyter・フォーマッタ設定 (開発機能)
+    // ==================================================
+    // --- Jupyter Notebook ---
+    // Notebook のセル内に行番号を表示 (Python分析などで使用)
+    "notebook.lineNumbers": "on",
+    // --- Python 解析 (Pylance) ---
+    // 型チェックモードを「standard」に設定
+    "python.analysis.typeCheckingMode": "standard",
+    // --- フォーマッタ (Ruff) & 保存時アクション ---
+    // デフォルトフォーマッタに Ruff を指定
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    // Python ファイル限定の設定
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    // 保存時に自動整形を実行
+    "editor.formatOnSave": true,
+    // 保存時に実行するコード修正
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit", // 自動修正
+        "source.organizeImports": "explicit" // import整理
+    },
+    // ==================================================
+    //  AI 支援 (GitHub Copilot)
+    // ==================================================
+    // 次の編集箇所の予測提案 (Copilot Next Edit Suggestions)
+    "github.copilot.nextEditSuggestions.enabled": true,
+    // チャットでエージェントスキル (ターミナル操作等) を使用許可
+    "chat.useAgentSkills": true
+}
