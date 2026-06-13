@@ -1,0 +1,268 @@
+<mxfile host="65bd71144e">
+    <diagram id="RE0PcZtdG7nXEaz5H9Xi" name="Page-1">
+        <mxGraphModel dx="1743" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="legend_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="30" width="200" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="legend_title" value="凡例 (Legend)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="35" width="200" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="leg1" value="🔵 基礎概念・理論" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="45" y="68" width="170" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="leg2" value="🟢 データフォーマット・言語" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="45" y="100" width="170" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="leg3" value="🟠 スマートビル実装規格" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="45" y="132" width="170" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="leg4" value="🟣 産業IoT実装規格" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="45" y="164" width="170" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="leg5" value="🔴 クロスドメイン規格" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" parent="1" vertex="1">
+                    <mxGeometry x="45" y="196" width="170" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="layer0_label" value="【基礎概念・理論層】" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#2c5f8a;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="30" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="semantic_web" value="&lt;b&gt;セマンティックウェブ&lt;/b&gt;&lt;br&gt;(Semantic Web)&lt;br&gt;&lt;i&gt;[W3C 概念]&lt;/i&gt;&lt;br&gt;Web上のデータに「意味」を付与する思想" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontColor=#1a3a5c;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="70" width="200" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="knowledge_graph" value="&lt;b&gt;ナレッジグラフ&lt;/b&gt;&lt;br&gt;(Knowledge Graph)&lt;br&gt;&lt;i&gt;[概念・アーキテクチャ]&lt;/i&gt;&lt;br&gt;エンティティと関係をグラフで表現" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontColor=#1a3a5c;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="70" width="200" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="ontology" value="&lt;b&gt;オントロジー&lt;/b&gt;&lt;br&gt;(Ontology)&lt;br&gt;&lt;i&gt;[概念・理論]&lt;/i&gt;&lt;br&gt;概念の体系と関係性を形式的に定義する枠組み" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontColor=#1a3a5c;" parent="1" vertex="1">
+                    <mxGeometry x="830" y="70" width="200" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="triple" value="&lt;b&gt;トリプル&lt;/b&gt;&lt;br&gt;(Subject - Predicate - Object)&lt;br&gt;&lt;i&gt;[概念]&lt;/i&gt;&lt;br&gt;主語・述語・目的語の3要素でデータを表現" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontColor=#1a3a5c;" parent="1" vertex="1">
+                    <mxGeometry x="1150" y="70" width="200" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="uri" value="&lt;b&gt;URI / IRI&lt;/b&gt;&lt;br&gt;&lt;i&gt;[識別子・概念]&lt;/i&gt;&lt;br&gt;グローバルに一意なリソース識別子" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;fontColor=#1a3a5c;" parent="1" vertex="1">
+                    <mxGeometry x="1450" y="67" width="180" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="layer1_label" value="【データフォーマット・言語層】" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#2d6a2d;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="210" width="300" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="rdf" value="&lt;b&gt;RDF&lt;/b&gt;&lt;br&gt;(Resource Description Framework)&lt;br&gt;&lt;i&gt;[W3C標準・フォーマット]&lt;/i&gt;&lt;br&gt;トリプルでグラフを記述する&lt;br&gt;データモデルの基盤規格" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontColor=#1a3d1a;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="250" width="190" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="owl" value="&lt;b&gt;OWL&lt;/b&gt;&lt;br&gt;(Web Ontology Language)&lt;br&gt;&lt;i&gt;[W3C標準・言語]&lt;/i&gt;&lt;br&gt;RDFを拡張し、クラス・&lt;br&gt;プロパティ・推論を定義" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontColor=#1a3d1a;" parent="1" vertex="1">
+                    <mxGeometry x="410" y="250" width="190" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="sparql" value="&lt;b&gt;SPARQL&lt;/b&gt;&lt;br&gt;&lt;i&gt;[W3C標準・クエリ言語]&lt;/i&gt;&lt;br&gt;RDFグラフに対する&lt;br&gt;問い合わせ言語&lt;br&gt;(SQLのRDF版)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontColor=#1a3d1a;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="250" width="190" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="turtle" value="&lt;b&gt;Turtle (.ttl)&lt;/b&gt;&lt;br&gt;&lt;i&gt;[RDF記述形式]&lt;/i&gt;&lt;br&gt;人間が読みやすい&lt;br&gt;テキスト形式でRDFを記述。&lt;br&gt;設計・学習に最適" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontColor=#1a3d1a;" parent="1" vertex="1">
+                    <mxGeometry x="950" y="250" width="190" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="jsonld" value="&lt;b&gt;JSON-LD&lt;/b&gt;&lt;br&gt;&lt;i&gt;[RDF記述形式 / W3C標準]&lt;/i&gt;&lt;br&gt;JSONベースのRDF形式。&lt;br&gt;Webサイト構造化データ・&lt;br&gt;SEO対策に広く利用" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontColor=#1a3d1a;" parent="1" vertex="1">
+                    <mxGeometry x="1200" y="250" width="190" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="rdfxml" value="&lt;b&gt;RDF/XML&lt;/b&gt;&lt;br&gt;&lt;i&gt;[RDF記述形式]&lt;/i&gt;&lt;br&gt;XMLベースの初期形式。&lt;br&gt;機械処理向き。&lt;br&gt;レガシー連携に使用" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontColor=#1a3d1a;" parent="1" vertex="1">
+                    <mxGeometry x="1440" y="250" width="190" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="dtdl" value="&lt;b&gt;DTDL&lt;/b&gt;&lt;br&gt;(Digital Twins Definition Language)&lt;br&gt;&lt;i&gt;[Microsoft・実装言語]&lt;/i&gt;&lt;br&gt;JSON-LDベース。Azure Digital&lt;br&gt;Twins向けモデリング言語" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;fontColor=#1a3d1a;" parent="1" vertex="1">
+                    <mxGeometry x="1110" y="400" width="190" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="layer2_label" value="【スマートビル実装規格層】" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#7a4200;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="530" width="300" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="bot" value="&lt;b&gt;BOT&lt;/b&gt;&lt;br&gt;(Building Topology Ontology)&lt;br&gt;&lt;i&gt;[W3C・実装規格]&lt;/i&gt;&lt;br&gt;Site / Building / Storey / Space&lt;br&gt;の空間包含関係のみを記述。&lt;br&gt;全ビル系の共通骨格" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontSize=10;fontColor=#5a3000;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="570" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="brick" value="&lt;b&gt;Brick Schema&lt;/b&gt;&lt;br&gt;&lt;i&gt;[オープン標準・実装規格]&lt;/i&gt;&lt;br&gt;Location / Equipment / Pointの&lt;br&gt;3クラスでビル設備をRDF/OWLで&lt;br&gt;厳密にグラフ表現。&lt;br&gt;FDD・エネルギー最適化に活用" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontSize=10;fontColor=#5a3000;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="570" width="210" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="haystack" value="&lt;b&gt;Project Haystack&lt;/b&gt;&lt;br&gt;&lt;i&gt;[オープン標準・実装規格]&lt;/i&gt;&lt;br&gt;equip / point / sensor / hvac等の&lt;br&gt;テキストタグで設備に意味付け。&lt;br&gt;グラフではなくタグ集合。&lt;br&gt;導入が容易・普及率高" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontSize=10;fontColor=#5a3000;" parent="1" vertex="1">
+                    <mxGeometry x="750" y="570" width="210" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="ifc" value="&lt;b&gt;IFC&lt;/b&gt;&lt;br&gt;(Industry Foundation Classes)&lt;br&gt;&lt;i&gt;[ISO・BIM実装規格]&lt;/i&gt;&lt;br&gt;建築物の3D物理構造・&lt;br&gt;幾何学情報のデータフォーマット。&lt;br&gt;論理ではなく物理情報を担う" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontSize=10;fontColor=#5a3000;" parent="1" vertex="1">
+                    <mxGeometry x="990" y="570" width="200" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="rec" value="&lt;b&gt;RealEstateCore (REC)&lt;/b&gt;&lt;br&gt;&lt;i&gt;[オープン標準・実装規格]&lt;/i&gt;&lt;br&gt;BOT＋Brick Schema＋ビジネスロジックを統合。&lt;br&gt;テナント管理・施設保守・財務など&lt;br&gt;不動産運用に特化した統合オントロジー。&lt;br&gt;Azure Digital Twins（DTDL）と連携" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontSize=10;fontColor=#5a3000;" parent="1" vertex="1">
+                    <mxGeometry x="1220" y="570" width="220" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="ashrae" value="&lt;b&gt;ASHRAE 223P&lt;/b&gt;&lt;br&gt;&lt;i&gt;[策定中標準・実装規格]&lt;/i&gt;&lt;br&gt;HaystackとBrick Schemaを統合・調和させる&lt;br&gt;新しいセマンティックモデル標準。&lt;br&gt;業界標準化の核として策定中" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d6b656;fontSize=10;fontColor=#5a3000;" parent="1" vertex="1">
+                    <mxGeometry x="1070" y="780" width="230" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="layer3_label" value="【産業IoT実装規格層】" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#4a2070;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="880" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="aas" value="&lt;b&gt;AAS&lt;/b&gt;&lt;br&gt;(Asset Administration Shell)&lt;br&gt;&lt;i&gt;[Industry 4.0・実装規格]&lt;/i&gt;&lt;br&gt;製造業・サプライチェーン向け。&lt;br&gt;物理アセットのデジタル表現。&lt;br&gt;サブモデル（Nameplate等）でカプセル化" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;fontColor=#3d1a5c;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="920" width="220" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="layer4_label" value="【クロスドメイン規格層】" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontStyle=1;fontColor=#8b1a1a;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="880" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="saref" value="&lt;b&gt;SAREF&lt;/b&gt;&lt;br&gt;(Smart Applications REFerence Ontology)&lt;br&gt;&lt;i&gt;[ETSI・実装規格]&lt;/i&gt;&lt;br&gt;汎用IoTデバイス向けOWL-DLオントロジー。&lt;br&gt;Device / Function / Task / Stateの概念構造。&lt;br&gt;BLDG・INDU・CITY・AGRI等の拡張あり" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontColor=#6a1010;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="920" width="240" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="adt" value="&lt;b&gt;Azure Digital Twins&lt;/b&gt;&lt;br&gt;&lt;i&gt;[Microsoft・クラウドプラットフォーム]&lt;/i&gt;&lt;br&gt;DTDLモデルをベースに&lt;br&gt;デジタルツインを構築・管理する&lt;br&gt;クラウドサービス" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=10;fontColor=#333333;" parent="1" vertex="1">
+                    <mxGeometry x="1430" y="830" width="210" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" value="実現手段" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" parent="1" source="semantic_web" target="knowledge_graph" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2" value="概念定義に利用" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" parent="1" source="knowledge_graph" target="ontology" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e3" value="記述単位" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" parent="1" source="ontology" target="triple" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e4" value="識別に使用" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" parent="1" source="triple" target="uri" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e5" value="実装規格" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=9;" parent="1" source="triple" target="rdf" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e6" value="実装言語" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=9;" parent="1" source="ontology" target="owl" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e7" value="拡張" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" parent="1" source="rdf" target="owl" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e8" value="クエリ対象" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" parent="1" source="owl" target="sparql" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e9" value="記述形式" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" parent="1" source="sparql" target="turtle" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e10" value="記述形式" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" parent="1" source="turtle" target="jsonld" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e11" value="記述形式" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;" parent="1" source="jsonld" target="rdfxml" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e12" value="ベース技術" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;" parent="1" source="jsonld" target="dtdl" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e13" value="OWLで実装" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=9;" parent="1" source="owl" target="bot" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e14" value="RDF/OWLで実装" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=9;" parent="1" source="owl" target="brick" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e15" value="Turtle形式で記述" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=9;" parent="1" source="turtle" target="brick" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e16" value="DTDL実装" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=9;" parent="1" source="dtdl" target="rec" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e17" value="空間骨格として統合" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;strokeColor=#d6b656;" parent="1" source="bot" target="brick" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e18" value="空間モジュールとして統合" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontSize=9;strokeColor=#d6b656;" parent="1" source="bot" target="rec" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e19" value="設備モジュールとして統合" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;strokeColor=#d6b656;" parent="1" source="brick" target="rec" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e20" value="調和・統合に向け共同開発" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;strokeColor=#d6b656;" parent="1" source="haystack" target="ashrae" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="855" y="750"/>
+                            <mxPoint x="1040" y="750"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e21" value="調和・統合に向け共同開発" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=9;strokeColor=#d6b656;" parent="1" source="brick" target="ashrae" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="615" y="820"/>
+                            <mxPoint x="990" y="820"/>
+                            <mxPoint x="990" y="865"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e22" value="JSON/RDFで記述" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=9;" parent="1" source="rdf" target="aas" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e23" value="OWL-DLで実装" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;fontSize=9;" parent="1" source="owl" target="saref" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e24" value="利用" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;strokeColor=#666666;" parent="1" source="dtdl" target="adt" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1540" y="465"/>
+                            <mxPoint x="1540" y="820"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e25" value="デプロイ先" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontSize=9;strokeColor=#666666;" parent="1" source="rec" target="adt" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="saref_bldg" value="SAREF4BLDG&lt;br&gt;&lt;i&gt;ビルディング拡張&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;fontColor=#6a1010;" parent="1" vertex="1">
+                    <mxGeometry x="620" y="1110" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="saref_indu" value="SAREF4INDU&lt;br&gt;&lt;i&gt;産業・製造拡張&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;fontColor=#6a1010;" parent="1" vertex="1">
+                    <mxGeometry x="1030" y="1110" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="saref_city" value="SAREF4CITY&lt;br&gt;&lt;i&gt;スマートシティ拡張&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;fontColor=#6a1010;" parent="1" vertex="1">
+                    <mxGeometry x="725" y="1110" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="saref_agri" value="SAREF4AGRI&lt;br&gt;&lt;i&gt;農業ドメイン拡張&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;fontColor=#6a1010;" parent="1" vertex="1">
+                    <mxGeometry x="870" y="1110" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="e26" value="拡張" style="edgeStyle=orthogonalEdgeStyle;rounded=0;fontSize=9;" parent="1" source="saref" target="saref_bldg" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e27" value="拡張" style="edgeStyle=orthogonalEdgeStyle;rounded=0;fontSize=9;" parent="1" source="saref" target="saref_indu" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e28" value="拡張" style="edgeStyle=orthogonalEdgeStyle;rounded=0;fontSize=9;" parent="1" source="saref" target="saref_city" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e29" value="拡張" style="edgeStyle=orthogonalEdgeStyle;rounded=0;fontSize=9;" parent="1" source="saref" target="saref_agri" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="aas_nameplate" value="Digital Nameplate&lt;br&gt;&lt;i&gt;銘板情報サブモデル&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;fontColor=#3d1a5c;" parent="1" vertex="1">
+                    <mxGeometry y="1100" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="aas_tech" value="Technical Data&lt;br&gt;&lt;i&gt;技術データサブモデル&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;fontColor=#3d1a5c;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="1215" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="aas_ts" value="Time Series&lt;br&gt;&lt;i&gt;時系列データサブモデル&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;fontColor=#3d1a5c;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="1119" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="aas_bom" value="BOM&lt;br&gt;&lt;i&gt;部品表サブモデル&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;fontColor=#3d1a5c;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="1215" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="e30" value="サブモデル" style="edgeStyle=orthogonalEdgeStyle;rounded=0;fontSize=9;" parent="1" target="aas_nameplate" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="390" y="1090" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="390" y="1091"/>
+                            <mxPoint x="200" y="1091"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e31" value="サブモデル" style="edgeStyle=orthogonalEdgeStyle;rounded=0;fontSize=9;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="420" y="1119" as="sourcePoint"/>
+                        <mxPoint x="230" y="1209" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="420" y="1120"/>
+                            <mxPoint x="230" y="1120"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e32" value="サブモデル" style="edgeStyle=orthogonalEdgeStyle;rounded=0;fontSize=9;" parent="1" target="aas_ts" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="390" y="1090" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="e33" value="サブモデル" style="edgeStyle=orthogonalEdgeStyle;rounded=0;fontSize=9;" parent="1" target="aas_bom" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="390" y="1090" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="title" value="セマンティック技術・オントロジー 周辺技術関係図" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1;fontColor=#1a1a2e;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="1220" width="800" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
