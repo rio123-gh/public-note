@@ -1,7 +1,7 @@
 # DTDL 
 
 
-## DTLDとは
+## DTDLとは
 - Digital Twins Definition Language
 - JSON-LDをベースにした、Azure Digital Twinsなどで使われるモデリング言語
 - DTDL v3 の完全な言語の説明は、GitHub で確認できます: DTDL バージョン 3 言語の説明。 このページには、独自の DTDL モデルを作成し始める際に役立つ詳細な DTDL リファレンスと例が含まれています。
